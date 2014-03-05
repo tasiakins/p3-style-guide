@@ -13,6 +13,14 @@ h1{
 	color: #B10000;
 }
 
+h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	color: #B10000;
+	float:right;
+	margin: 20px;
+}
+
 h3{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 2em;
@@ -44,11 +52,9 @@ a{
 img{
 	width: 300px;
 	margin: 25px;
+
 }
 
-body{
-	background: url("../img/shattered.png");
-}
 
 /*colors*/
 .color-1,
@@ -85,17 +91,24 @@ body{
 }
 
 .tex-1{
-	background: url("../img/skulls.png");
+	background: url("../img/dark_wall.png");
 }
 
 .tex-2{
-	background: url("../img/stardust.png");
+	background: url("../img/cartographer.png");
 }
 
 .tex-3{
-	background: url("../img/shattered.png");
+	background: url("../img/images.jpeg");
 }
+
 /*body*/
+
+
+body{
+	background: url("../img/cartographer.png");
+}
+
 header{
 	background: #F7F7F7;
 }
@@ -112,7 +125,10 @@ hr{
 
 footer{
 	background: #F7F7F7;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
 }
+
 
 /*hover*/
 a:link,
