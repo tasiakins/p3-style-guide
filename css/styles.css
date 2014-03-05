@@ -5,32 +5,44 @@ font-family: 'Open Sans Condensed', sans-serif;
 */
 
 /*typography*/
+
 h1{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 3em;
-}
-
-h2{
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: orange;
-	font-size: 2em;
+	margin: 15px 10px 0px 10px;
+	color: #B10000;
 }
 
 h3{
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.5em;
-	color: red;
+	font-size: 2em;
+	font-style: italic;
+	color: #383838;
+	margin: 15px 10px 0px 10px;
 }
 
 h5{
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.2em;
+	font-family: 'Open Sans Condensed';
+	color: silver;
+	margin: 0px 5px 5px 10px;
 }
 
+p{
+	font-family: 'Open Sans Condensed';
+	color: #383838;
+	margin: 15px 5px 5px 10px;
+}
+
+a{
+	font-family: 'Open Sans Condensed';
+	font-style: italic;
+	color: #B10000;
+	font-size: 1.5em;
+	margin: 10px;
+}
 /*image*/
 img{
-	width: 200px;
-	height: 100px;
+	width: 300px;
 	margin: 25px;
 }
 
@@ -40,7 +52,8 @@ body{
 
 /*colors*/
 .color-1,
-.color-2{
+.color-2,
+.color-4{
 	border: 2px solid #000;
 	height:50px;
 	float: left;
@@ -49,12 +62,67 @@ body{
 }
 
 .color-1{
-	background: orange;
+	background: #B10000;
 }
 
 .color-2{
-	background: green;
+	background: #383838;
 }
+
+.color-4{
+	background: #F7F7F7;
+}
+
+/*texture*/
+.tex-1,
+.tex-2,
+.tex-3{
+	border: 2px solid #000;
+	height:112px;
+	float: left;
+	margin: 10px;
+	width: 100px;
+}
+
+.tex-1{
+	background: url("../img/skulls.png");
+}
+
+.tex-2{
+	background: url("../img/stardust.png");
+}
+
+.tex-3{
+	background: url("../img/shattered.png");
+}
+/*body*/
+header{
+	background: #F7F7F7;
+}
+
+article section{
+	background: #F7F7F7;
+	float: left;
+}
+
+hr{
+	padding: 1px;
+	background-color: #383838;
+}
+
+footer{
+	background: #F7F7F7;
+}
+
+/*hover*/
+a:link,
+a:visited {
+	color: #B10000;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 30px;
+}
+
 
 /*show grid*/
 .showgrid{
